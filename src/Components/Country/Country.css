@@ -1,0 +1,35 @@
+.country{
+    border: 2px solid tomato;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.heading{
+    text-align: center;
+    color: #0abde3;
+}
+
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+.btn-primary{
+    background-color: #0abde3;
+    margin-bottom: 10px;
+}
+
+.visited{
+    background-color: aquamarine;
+}
+
+.non-visited{
+    background-color: tomato;
+
+}
+
+.flag-container img{
+    width: 100px;
+}
